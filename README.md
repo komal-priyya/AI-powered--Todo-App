@@ -5,11 +5,17 @@ A modern and user-friendly Todo Application built with React and Tailwind CSS, d
 
 🚀 Features
 ✅ Add new tasks
+
 ✏️ Edit existing tasks
+
 🗑️ Delete tasks
+
 ✔️ Mark tasks as completed
+
 🎨 Beautiful and responsive UI using Tailwind CSS
+
 ⚡ Real-time updates with React state management (useState)
+
 ----
 
 
