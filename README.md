@@ -7,6 +7,11 @@ This app not only lets you manage tasks but also helps you improve tasks and bre
 
 
 
+
+
+
+
+
 **🚀 Features :**
 
 ✅ Add, edit, delete tasks
@@ -25,26 +30,31 @@ This app not only lets you manage tasks but also helps you improve tasks and bre
 
 
 
+
+
+
+
+
 **🖼️ Preview**
 
 
 <img width="935" height="659" alt="image" src="https://github.com/user-attachments/assets/5399319f-09e3-48f1-8f53-c73126c95016" />
 
 
---
+---
 
 <img width="944" height="703" alt="image" src="https://github.com/user-attachments/assets/3ff99fc7-eee5-4c07-9dd5-761da82048a2" />
 
 
---
+---
 
 <img width="956" height="595" alt="image" src="https://github.com/user-attachments/assets/07bd6e69-90b2-4de5-b5ed-78f44cb6ef67" />
 
---
+---
 
 <img width="932" height="844" alt="image" src="https://github.com/user-attachments/assets/20ba27ad-d56b-4bdb-9d75-fd84ffd78a51" />
 
---
+---
 
 <img width="936" height="654" alt="image" src="https://github.com/user-attachments/assets/57a3e3ac-bd34-431d-a5e5-3fc00e1cba1e" />
 
@@ -53,6 +63,9 @@ This app not only lets you manage tasks but also helps you improve tasks and bre
 
 
 ---
+
+
+
 
 **🛠️ Tech Stack**
 ⚛️ React (Frontend)
@@ -63,6 +76,10 @@ This app not only lets you manage tasks but also helps you improve tasks and bre
 
 ---
 
+
+
+
+
 src/
 
  ├── App.jsx
@@ -72,6 +89,10 @@ src/
  ├── main.jsx
 
 ---
+
+
+
+
 
 
  ⚙️ Installation & Setup
@@ -126,6 +147,9 @@ npm run dev
 ---
 
 
+
+
+
 **⚠️ Important Notes**
 
 AI features will only work if Ollama is running locally
@@ -135,6 +159,10 @@ This project does not use any external API keys
 .env file is not included for security reasons
 
 ---
+
+
+
+
 
 
 **🎯 Future Improvements**
@@ -165,6 +193,11 @@ This project does not use any external API keys
 ---
 
 
+
+
+
+
+
 **🙌 Acknowledgements**
 
 Ollama for local AI support
@@ -174,6 +207,11 @@ Meta LLaMA 3 model
 React & Tailwind community
 
 ---
+
+
+
+
+
 
 
 **💡 Learning Highlights**
@@ -194,10 +232,15 @@ React & Tailwind community
 
 ---
 
+
+
 **💡 Author**
+
 KOMAL PRIYA
 
 ---
+
+
 
 
 ⭐ Show Your Support
