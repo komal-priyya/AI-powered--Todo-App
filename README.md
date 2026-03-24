@@ -1,42 +1,64 @@
-**🌸 React Todo App**
+🌸 AI-Powered Todo App
 
-A modern and user-friendly Todo Application built with React and Tailwind CSS, designed to manage daily tasks efficiently with a clean and elegant UI.
+A modern and smart Todo application built with React and Tailwind CSS, enhanced with AI features using Ollama (LLaMA 3).
 
+This app not only lets you manage tasks but also helps you improve tasks and break them into actionable steps using AI.
 ---------------------------------------------------------------------------
+
+
 
 **🚀 Features :**
 
-✅ Add new tasks
+✅ Add, edit, delete tasks
 
-✏️ Edit existing tasks
+✅ Mark tasks as completed
 
-🗑️ Delete tasks
+✨ Improve task clarity using AI
 
-✔️ Mark tasks as completed
+🧠 Break tasks into 3–5 actionable steps
 
-🎨 Beautiful and responsive UI using Tailwind CSS
+❌ Cancel AI-generated steps
 
-⚡ Real-time updates with React state management (useState)
+🎨 Clean and responsive UI (Tailwind CSS)
 
-----
+---
 
 
 
 **🖼️ Preview**
 
-<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/c19d0192-a5ab-47e7-8f02-3f5741e4ff18" />
 
-----
+<img width="935" height="659" alt="image" src="https://github.com/user-attachments/assets/5399319f-09e3-48f1-8f53-c73126c95016" />
+
+
+--
+
+<img width="944" height="703" alt="image" src="https://github.com/user-attachments/assets/3ff99fc7-eee5-4c07-9dd5-761da82048a2" />
+
+
+--
+
+<img width="956" height="595" alt="image" src="https://github.com/user-attachments/assets/07bd6e69-90b2-4de5-b5ed-78f44cb6ef67" />
+
+--
+
+<img width="932" height="844" alt="image" src="https://github.com/user-attachments/assets/20ba27ad-d56b-4bdb-9d75-fd84ffd78a51" />
+
+--
+
+<img width="936" height="654" alt="image" src="https://github.com/user-attachments/assets/57a3e3ac-bd34-431d-a5e5-3fc00e1cba1e" />
+
+
+
+
+
+---
 
 **🛠️ Tech Stack**
-
--React (Functional Components + Hooks)
-
--JavaScript (ES6+)
-
--Tailwind CSS
-
--Vite
+⚛️ React (Frontend)
+🎨 Tailwind CSS (Styling)
+🤖 Ollama (Local AI)
+🧠 LLaMA 3 Model
 
 
 ---
@@ -49,30 +71,71 @@ src/
  
  ├── main.jsx
 
-----
+---
 
 
  ⚙️ Installation & Setup
  
-**Clone the repository:**
+** 1️⃣ Clone the repository:**
 ```
 git clone https://github.com/your-username/react-todo-app.git
 
 
 ```
-**Navigate to the project folder:**
-```
 
-cd react-todo-app
-```
 
-**Install dependencies:**
+** 2️⃣ Install dependencies:**
 ```
 npm install
 Run the app:
 npm run dev
 ```
-----
+---
+
+**3️⃣ Setup Environment Variables**
+
+Create a .env file in the root:
+
+If using Vite:
+```
+VITE_OLLAMA_URL=http://localhost:11434/api/generate
+```
+If using Create React App:
+```
+REACT_APP_OLLAMA_URL=http://localhost:11434/api/generate
+```
+
+---
+
+
+**4️⃣ Run Ollama**
+
+Make sure Ollama is installed and running:
+
+ollama pull llama3
+
+ollama serve
+
+---
+
+
+**5️⃣ Start the App**
+
+npm run dev
+
+---
+
+
+**⚠️ Important Notes**
+
+AI features will only work if Ollama is running locally
+
+This project does not use any external API keys
+
+.env file is not included for security reasons
+
+---
+
 
 **🎯 Future Improvements**
 
@@ -92,10 +155,28 @@ npm run dev
 
 📱 Improve mobile responsiveness
 
+📊 Task analytics
+
+🔐 User authentication
+
+☁️ Cloud-based AI integration
+
+
 ---
 
-💡 Learning Highlights
 
+**🙌 Acknowledgements**
+
+Ollama for local AI support
+
+Meta LLaMA 3 model
+
+React & Tailwind community
+
+---
+
+
+**💡 Learning Highlights**
 
 
 **This project demonstrates**:
@@ -113,11 +194,14 @@ npm run dev
 
 ---
 
+**💡 Author**
+KOMAL PRIYA
 
+---
 
 
 ⭐ Show Your Support
 
 
-If you like this project, consider giving it a ⭐ on GitHub!
+If you like this project, consider giving it a ⭐ 
 
