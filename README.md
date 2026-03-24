@@ -1,16 +1,123 @@
-# React + Vite
+**🌸 React Todo App**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and user-friendly Todo Application built with React and Tailwind CSS, designed to manage daily tasks efficiently with a clean and elegant UI.
 
-Currently, two official plugins are available:
+---------------------------------------------------------------------------
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**🚀 Features :**
 
-## React Compiler
+✅ Add new tasks
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✏️ Edit existing tasks
 
-## Expanding the ESLint configuration
+🗑️ Delete tasks
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✔️ Mark tasks as completed
+
+🎨 Beautiful and responsive UI using Tailwind CSS
+
+⚡ Real-time updates with React state management (useState)
+
+----
+
+
+
+**🖼️ Preview**
+
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/c19d0192-a5ab-47e7-8f02-3f5741e4ff18" />
+
+----
+
+**🛠️ Tech Stack**
+
+-React (Functional Components + Hooks)
+
+-JavaScript (ES6+)
+
+-Tailwind CSS
+
+-Vite
+
+
+---
+
+src/
+
+ ├── App.jsx
+ 
+ ├── index.css
+ 
+ ├── main.jsx
+
+----
+
+
+ ⚙️ Installation & Setup
+ 
+**Clone the repository:**
+```
+git clone https://github.com/your-username/react-todo-app.git
+
+
+```
+**Navigate to the project folder:**
+```
+
+cd react-todo-app
+```
+
+**Install dependencies:**
+```
+npm install
+Run the app:
+npm run dev
+```
+----
+
+**🎯 Future Improvements**
+
+🔄 Add localStorage support (persist tasks after refresh)
+
+❌ Add Cancel button during editing
+
+🔍 Task search & filtering (completed / pending)
+
+📅 Add due dates & reminders
+
+🌙 Dark mode support
+
+🎯 Drag & drop task reordering
+
+🔔 Notifications for pending tasks
+
+📱 Improve mobile responsiveness
+
+---
+
+💡 Learning Highlights
+
+
+
+**This project demonstrates**:
+
+-> State management using useState
+
+-> Conditional rendering in React
+
+-> Handling user input and events
+
+-> Component-based UI design
+
+-> Styling with Tailwind CSS
+
+
+---
+
+
+
+
+⭐ Show Your Support
+
+
+If you like this project, consider giving it a ⭐ on GitHub!
+
