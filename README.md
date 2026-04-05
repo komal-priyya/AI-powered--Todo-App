@@ -1,8 +1,10 @@
 🌸 AI-Powered Todo App
+--
 
 A modern and smart Todo application built with React and Tailwind CSS, enhanced with AI features using Ollama (LLaMA 3).
 
-This app not only lets you manage tasks but also helps you improve tasks and break them into actionable steps using AI.
+
+This app not only lets you manage tasks but also helps you improve tasks and break them into actionable steps using AI
 ---------------------------------------------------------------------------
 
 
@@ -14,17 +16,17 @@ This app not only lets you manage tasks but also helps you improve tasks and bre
 
 **🚀 Features :**
 
-✅ Add, edit, delete tasks
+ ✅ Add, edit, delete tasks
 
-✅ Mark tasks as completed
+ ✅ Mark tasks as completed
 
-✨ Improve task clarity using AI
+ ✨ Improve task clarity using AI
 
-🧠 Break tasks into 3–5 actionable steps
+ 🧠 Break tasks into 3–5 actionable steps
 
-❌ Cancel AI-generated steps
+ ❌ Cancel AI-generated steps
 
-🎨 Clean and responsive UI (Tailwind CSS)
+ 🎨 Clean and responsive UI (Tailwind CSS)
 
 ---
 
@@ -34,21 +36,21 @@ This app not only lets you manage tasks but also helps you improve tasks and bre
 
 🧪 How It Works
 
-📌 localStorage Persistence
+ 📌 localStorage Persistence
 
-Tasks are stored in browser storage
+ ✨ Tasks are stored in browser storage
 
-Automatically loaded on app start
+ ✨ Automatically loaded on app start
 
-Updates whenever tasks change
+ ✨ Updates whenever tasks change
 
 📌 AI Integration
 
-->Uses LLaMA3 via Ollama
+✨ Uses LLaMA3 via Ollama
 
-->Sends task as prompt
+✨ Sends task as prompt
 
-->Returns improved text or steps
+✨ Returns improved text or steps
 
 
 
@@ -89,8 +91,11 @@ Updates whenever tasks change
 
 **🛠️ Tech Stack**
 ⚛️ React (Frontend)
+
 🎨 Tailwind CSS (Styling)
+
 🤖 Ollama (Local AI)
+
 🧠 LLaMA 3 Model
 
 
@@ -101,15 +106,24 @@ Updates whenever tasks change
 
 
 📂 Project Structure
+
 Todo-App/
+
 │── src/
+
 │   ├── components/
+
 │   │   └── Todo.jsx
+
 │   ├── App.js
+
 │   └── main.jsx
+
 │
 │── public/
+
 │── package.json
+
 │── README.md
 ---
 
@@ -175,11 +189,11 @@ npm run dev
 
 **⚠️ Important Notes**
 
-AI features will only work if Ollama is running locally
+✨AI features will only work if Ollama is running locally
 
-This project does not use any external API keys
+✨This project does not use any external API keys
 
-.env file is not included for security reasons
+✨.env file is not included for security reasons
 
 ---
 
@@ -223,11 +237,11 @@ This project does not use any external API keys
 
 **🙌 Acknowledgements**
 
-Ollama for local AI support
+✨Ollama for local AI support
 
-Meta LLaMA 3 model
+✨Meta LLaMA 3 model
 
-React & Tailwind community
+✨React & Tailwind community
 
 ---
 
@@ -242,15 +256,15 @@ React & Tailwind community
 
 **This project demonstrates**:
 
--> State management using useState
+ ✨ State management using useState
 
--> Conditional rendering in React
+✨ Conditional rendering in React
 
--> Handling user input and events
+✨ Handling user input and events
 
--> Component-based UI design
+✨ Component-based UI design
 
--> Styling with Tailwind CSS
+✨ Styling with Tailwind CSS
 
 
 ---
